@@ -14,11 +14,37 @@ body{
 }
 header{
     grid-area: header;
-    background-color: red;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+}
+header div{
+    background-color: #a5a8b1;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+header div img{
+    width: 100px;
+    height: 100%;
 }
 nav{
+    align-items: center;
     grid-area: nav;
-    background-color: blue;
+    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+
+}
+nav a{
+    color: black;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a:hover{
+    color: white;
 }
 section{
     grid-area: section;
