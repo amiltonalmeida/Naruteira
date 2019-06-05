@@ -7,10 +7,10 @@ body{
                         'footer footer footer footer';
     grid-template-rows: 20vh 15vh 50vh 30vh;
     /* grid-template-columns: 10vh 30vh 40vh 20vh; */
-    grid-gap: 10px;
     /* grid-row-gap: 10px;
     grid-column-gap: 10px; */
     background-color: black;
+    grid-template-columns: 25% 25% 24% 24%;
 }
 header{
     grid-area: header;
@@ -49,6 +49,16 @@ nav a:hover{
 section{
     grid-area: section;
     background-color: green;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+section img{
+    width: 300px;
+    border-radius: 100%;
+}
+section a:hover{
+    width: 400px;
 }
 aside{
     grid-area: aside;
